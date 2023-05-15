@@ -1,0 +1,27 @@
+camera:
+#  像素与物体真实尺寸的比例（单位：像素每毫米）
+  scale: 5.0
+#  针片状圆度阈值
+  roundness_thr: 0.58
+product_info:
+  id: 1
+  location: "中国"
+  belt_width: 20
+  belt_speed: 20
+  save_path: 'D:\jpf\result'
+running_info:
+#  运行时统计时间间隔（单位：小时）
+  statistical_interval: 0.001
+dcs_ip: '192.168.16.133'
+transport:
+  ip: '127.0.0.1'
+  port: 9999
+rank:
+  rank1: 10
+  rank2: 20
+  rank3: 26.5
+database:
+  host: 'localhost'
+  port: 3306
+  user: 'root'
+  password: 'root'
